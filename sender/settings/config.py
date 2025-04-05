@@ -11,8 +11,10 @@ class Settings:
         self.min_port = MIN_PORT
         self.max_attack_duration = MAX_ATTACK_DURATION
         
-        # Дополнительные параметры
-        self.verbose = False  # Режим подробного вывода
+        # Настройки логирования
+        self.logging = True
+        self.debug = False
+        self.verbose = False
         
     def update(self, **kwargs):
         """Обновление настроек"""
