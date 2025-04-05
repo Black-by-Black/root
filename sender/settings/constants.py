@@ -1,0 +1,6 @@
+# Константы по умолчанию
+DEFAULT_PACKET_SIZE = 1024  # 1KB
+DEFAULT_TIMEOUT = 1  # 1 секунда
+MAX_PORT = 65535
+MIN_PORT = 1
+MAX_ATTACK_DURATION = 3600  # 1 час
